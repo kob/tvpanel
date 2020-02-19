@@ -266,7 +266,6 @@ function changecolor(a){
  }
 </script>
 
-<div>
 <table border="1" bordercolor="#a0c6e5" style="border-collapse:collapse;">
 	<tr><td colspan=10><b>已授权用户列表</b>&nbsp;&nbsp;&nbsp;&nbsp;
 		&nbsp;&nbsp;&nbsp;全部用户：<?php echo $userCount; ?>
@@ -309,7 +308,6 @@ function changecolor(a){
 			?>
 			</select>
 			条
-
 			<a href="<?php echo '?page=1&order='.$order.'&keywords='.$keywords?>">首页</a>&nbsp;
 			<a href="<?php if($page>1){$p=$page-1;}else{$p=1;} echo '?page='.$p.'&order='.$order.'&keywords='.$keywords?>">上一页</a>&nbsp;
 			<a href="<?php if($page<$pageCount){$p=$page+1;} else {$p=$page;} echo '?page='.$p.'&order='.$order.'&keywords='.$keywords?>">下一页</a>&nbsp;
@@ -421,6 +419,4 @@ while($row=mysqli_fetch_array($result)){
 </td></tr>
 </form>
 </table>
-
-</div>
 </center>

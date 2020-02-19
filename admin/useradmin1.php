@@ -204,7 +204,6 @@ function copytoclip(){
 </script>
 
 <center>
-<div>
 <div style="display: none;" id="gensn">
 <form method="post">
 	生产数量<input type="text" name="snCount" value="10" size="20" />&nbsp;&nbsp;
@@ -260,7 +259,6 @@ function copytoclip(){
 			?>
 			</select>条
 			</form>
-
 			<a href="<?php echo '?keyword='.$keywords.'&page=1&order='.$order?>">首页</a>&nbsp;
 			<a href="<?php if($page>1){$p=$page-1;}else{$p=1;} echo '?keyword='.$keywords.'&page='.$p.'&order='.$order?>">上一页</a>&nbsp;
 			<a href="<?php if($page<$pageCount){$p=$page+1;} else {$p=$page;} echo '?keyword='.$keywords.'&page='.$p.'&order='.$order?>">下一页</a>&nbsp;
@@ -325,7 +323,5 @@ while($row=mysqli_fetch_array($result)){
 	<input type="submit" name="submitclear" value="清空已激活" onclick="return confirm('确定清空已激活用户吗？')">
 </td></tr>
 </form>
-
 </table>
-</div>
 </center>

@@ -160,7 +160,6 @@ function quanxuan(a){
 </script>
 
 <center>
-<div>
 <table border="1" bordercolor="#a0c6e5" style="border-collapse:collapse;">
 	<tr><td colspan=8><b>待授权列表</b>
 		  &nbsp;&nbsp;&nbsp;待授权用户：<?php echo $userCount; ?>
@@ -266,7 +265,5 @@ while($row=mysqli_fetch_array($result)){
 	<input type="submit" name="submitdelall" value="清空所有记录" onclick="return confirm('确认删除所有待授权信息？')"> 
 </td></tr>
 </form>
-
 </table>
-</div>
 </center>

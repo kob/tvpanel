@@ -81,9 +81,8 @@ td{padding: 8px;}
 }
 </style>
 
-<br>
+<center>
 <div id="loginrec">
-
 <table border="1" bordercolor="#a0c6e5" style="border-collapse:collapse;">
 <tr><td colspan="7">
 <form method="POST">
@@ -178,3 +177,4 @@ echo "<tr>
 ?>
 </table>
 </div>
+</center>
