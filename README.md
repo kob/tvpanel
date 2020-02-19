@@ -13,6 +13,10 @@ git clone https://github.com/GaHoKwan/tvpanel
 ```bash
 mysql -u用户名 -p密码 数据库名 < 数据库.sql
 ```
+- 修改sql.php对接数据库
+```bash
+mysqli_connect("数据库地址" , "数据库用户" , "数据库密码" , "数据库名")
+```
 
 - 登入后台
 ```
