@@ -171,9 +171,9 @@ function quanxuan(a){
 				<input type="text" name="keywords" value="<?php echo $keywords;?>">
 				<input type="submit" name="submitsearch" value="搜索">
 			</form>
-			<br>
-			每页
+			<br><br>
 			<form method="POST" id="recCounts">
+			每页
 			<select id="sel" name="recCounts" onchange="submitForm();">			
 			<?php
 			switch ($recCounts) {

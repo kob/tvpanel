@@ -278,8 +278,8 @@ function changecolor(a){
 			<input type="text" name="keywords" size="16" value="<?php echo $keywords;?>">
 			<input type="submit" name="submitsearch" value="搜索">
 		</form>
+		<br><br>
 		<form method="POST" id="recCounts">
-	  <br>
 		每页
 			<select id="sel" name="recCounts" onchange="submitForm();">
 			<?php
