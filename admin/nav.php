@@ -25,6 +25,7 @@ a#topnav_current { color: #fff }
 <a href="useradmin1.php">账号</a>
 <a href="useradmin2.php">用户</a>
 <a href="ipcheck.php">异常</a>
+<a href="epg.php">EPG列表</a>
 <a href="channeladmin.php">频道列表</a>
 </ul>
 <script language="javascript">

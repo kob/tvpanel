@@ -10,6 +10,7 @@ $db->backup("chzb_admin","./backup/","");
 $db->backup("chzb_appdata","./backup/","");
 $db->backup("chzb_category","./backup/","");
 $db->backup("chzb_channels","./backup/","");
+$db->backup("chzb_epg","./backup/","");
 $db->backup("chzb_loginrec","./backup/","");
 $db->backup("chzb_serialnum","./backup/","");
 $db->backup("chzb_users","./backup/","");
