@@ -2,7 +2,7 @@
 header("Content-type: text/json; charset=utf-8");
 
 $ip=$_GET['ip'];
-$ipjson=file_get_contents("http://ip.taobao.com//service/getIpInfo.php?ip=$ip");
+$ipjson=file_get_contents("http://ip.taobao.com/service/getIpInfo.php?ip=$ip");
 $ipobj=strtr($ipjson, array("X" => ''));
 $tbObj=json_decode($ipobj);
 $nettype=$tbObj->data->isp;
