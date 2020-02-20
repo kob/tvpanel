@@ -25,6 +25,10 @@ if( $t<$a_t || $b_t<$t ){
     }
 }
 
+$cachedir="./cache";
+if (! is_dir ( $cachedir )) {
+    @mkdir ( $cachedir, 0755, true ) or die ( '创建文件夹失败' );
+}
 $id=!empty($_GET["id"])?$_GET["id"]:exit(json_encode(["code"=>500,"msg"=>"EPG频道参数不能为空!","name"=>$name,"date"=>null,"data"=>null],JSON_UNESCAPED_UNICODE));
 echo out_epg($id);exit;
 
